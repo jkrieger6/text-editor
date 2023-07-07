@@ -19,7 +19,7 @@ module.exports = () => {
     },
     plugins: [
       new HtmlWebpackPlugin({
-        template: './src/index.html',
+        template: './index.html',
         filename: 'index.html',
         chunks: ['main'],
       }),
@@ -38,11 +38,10 @@ module.exports = () => {
   }),
   new InjectManifest({
     swSrc: './src-sw.js',
-    swDest: 'sw.js',
+    swDest: 'src-sw.js',
   }),
+ 
 ],
-  },
-}
 
     module: {
       rules: [
@@ -60,3 +59,5 @@ module.exports = () => {
         },
       ],
     }
+  }
+}
