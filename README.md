@@ -19,9 +19,16 @@ git clone https://github.com/jkrieger6/text-editor.git
 * Made using the latest versions of Visual Studio Code
 * Made with the latest version of GitHub
 * Made using the latest version of Node.js
-* Tested using the latest version of Insomnia Core
 
 ## Usage
+* To run the application locally, use the following command(s):
+```
+npm start
+```
+* To run the application in development mode, use the following command(s):
+```
+npm run start:dev
+```
 
 ## License
 * This application is covered under the [MIT](https://choosealicense.com/licenses/mit/) license
